@@ -1,0 +1,222 @@
+Microsoft Windows [Version 10.0.19044.1586]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths>mkdir docs
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths>pip install -U sphinx
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Requirement already up-to-date: sphinx in c:\python27\lib\site-packages (1.8.6)
+Requirement already satisfied, skipping upgrade: docutils<0.18,>=0.11 in c:\python27\lib\site-packages (from sphinx) (0.17.1)
+Requirement already satisfied, skipping upgrade: alabaster<0.8,>=0.7 in c:\python27\lib\site-packages (from sphinx) (0.7.12)
+Requirement already satisfied, skipping upgrade: Jinja2>=2.3 in c:\python27\lib\site-packages (from sphinx) (2.11.3)
+Requirement already satisfied, skipping upgrade: imagesize in c:\python27\lib\site-packages (from sphinx) (1.4.1)
+Requirement already satisfied, skipping upgrade: typing; python_version < "3.5" in c:\python27\lib\site-packages (from sphinx) (3.10.0.0)
+Requirement already satisfied, skipping upgrade: setuptools in c:\python27\lib\site-packages (from sphinx) (41.2.0)
+Requirement already satisfied, skipping upgrade: requests>=2.0.0 in c:\python27\lib\site-packages (from sphinx) (2.27.1)
+Requirement already satisfied, skipping upgrade: babel!=2.0,>=1.3 in c:\python27\lib\site-packages (from sphinx) (2.9.1)
+Requirement already satisfied, skipping upgrade: snowballstemmer>=1.1 in c:\python27\lib\site-packages (from sphinx) (2.2.0)
+Requirement already satisfied, skipping upgrade: sphinxcontrib-websupport in c:\python27\lib\site-packages (from sphinx) (1.1.2)
+Requirement already satisfied, skipping upgrade: colorama>=0.3.5; sys_platform == "win32" in c:\python27\lib\site-packages (from sphinx) (0.4.6)
+Requirement already satisfied, skipping upgrade: Pygments>=2.0 in c:\python27\lib\site-packages (from sphinx) (2.5.2)
+Requirement already satisfied, skipping upgrade: six>=1.5 in c:\python27\lib\site-packages (from sphinx) (1.16.0)
+Requirement already satisfied, skipping upgrade: packaging in c:\python27\lib\site-packages (from sphinx) (20.9)
+Requirement already satisfied, skipping upgrade: MarkupSafe>=0.23 in c:\python27\lib\site-packages (from Jinja2>=2.3->sphinx) (1.1.1)
+Requirement already satisfied, skipping upgrade: chardet<5,>=3.0.2; python_version < "3" in c:\python27\lib\site-packages (from requests>=2.0.0->sphinx) (4.0.0)
+Requirement already satisfied, skipping upgrade: idna<3,>=2.5; python_version < "3" in c:\python27\lib\site-packages (from requests>=2.0.0->sphinx) (2.10)
+Requirement already satisfied, skipping upgrade: urllib3<1.27,>=1.21.1 in c:\python27\lib\site-packages (from requests>=2.0.0->sphinx) (1.26.18)
+Requirement already satisfied, skipping upgrade: certifi>=2017.4.17 in c:\python27\lib\site-packages (from requests>=2.0.0->sphinx) (2021.10.8)
+Requirement already satisfied, skipping upgrade: pytz>=2015.7 in c:\python27\lib\site-packages (from babel!=2.0,>=1.3->sphinx) (2023.3.post1)
+Requirement already satisfied, skipping upgrade: pyparsing>=2.0.2 in c:\python27\lib\site-packages (from packaging->sphinx) (2.4.7)
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths>pip install sphinx-rtd-theme
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Requirement already satisfied: sphinx-rtd-theme in c:\python27\lib\site-packages (1.3.0)
+Requirement already satisfied: sphinxcontrib-jquery<5,>=4 in c:\python27\lib\site-packages (from sphinx-rtd-theme) (4.1)
+Requirement already satisfied: sphinx<8,>=1.6 in c:\python27\lib\site-packages (from sphinx-rtd-theme) (1.8.6)
+Requirement already satisfied: docutils<0.19 in c:\python27\lib\site-packages (from sphinx-rtd-theme) (0.17.1)
+Requirement already satisfied: alabaster<0.8,>=0.7 in c:\python27\lib\site-packages (from sphinx<8,>=1.6->sphinx-rtd-theme) (0.7.12)
+Requirement already satisfied: Jinja2>=2.3 in c:\python27\lib\site-packages (from sphinx<8,>=1.6->sphinx-rtd-theme) (2.11.3)
+Requirement already satisfied: imagesize in c:\python27\lib\site-packages (from sphinx<8,>=1.6->sphinx-rtd-theme) (1.4.1)
+Requirement already satisfied: typing; python_version < "3.5" in c:\python27\lib\site-packages (from sphinx<8,>=1.6->sphinx-rtd-theme) (3.10.0.0)
+Requirement already satisfied: setuptools in c:\python27\lib\site-packages (from sphinx<8,>=1.6->sphinx-rtd-theme) (41.2.0)
+Requirement already satisfied: requests>=2.0.0 in c:\python27\lib\site-packages (from sphinx<8,>=1.6->sphinx-rtd-theme) (2.27.1)
+Requirement already satisfied: babel!=2.0,>=1.3 in c:\python27\lib\site-packages (from sphinx<8,>=1.6->sphinx-rtd-theme) (2.9.1)
+Requirement already satisfied: snowballstemmer>=1.1 in c:\python27\lib\site-packages (from sphinx<8,>=1.6->sphinx-rtd-theme) (2.2.0)
+Requirement already satisfied: sphinxcontrib-websupport in c:\python27\lib\site-packages (from sphinx<8,>=1.6->sphinx-rtd-theme) (1.1.2)
+Requirement already satisfied: colorama>=0.3.5; sys_platform == "win32" in c:\python27\lib\site-packages (from sphinx<8,>=1.6->sphinx-rtd-theme) (0.4.6)
+Requirement already satisfied: Pygments>=2.0 in c:\python27\lib\site-packages (from sphinx<8,>=1.6->sphinx-rtd-theme) (2.5.2)
+Requirement already satisfied: six>=1.5 in c:\python27\lib\site-packages (from sphinx<8,>=1.6->sphinx-rtd-theme) (1.16.0)
+Requirement already satisfied: packaging in c:\python27\lib\site-packages (from sphinx<8,>=1.6->sphinx-rtd-theme) (20.9)
+Requirement already satisfied: MarkupSafe>=0.23 in c:\python27\lib\site-packages (from Jinja2>=2.3->sphinx<8,>=1.6->sphinx-rtd-theme) (1.1.1)
+Requirement already satisfied: chardet<5,>=3.0.2; python_version < "3" in c:\python27\lib\site-packages (from requests>=2.0.0->sphinx<8,>=1.6->sphinx-rtd-theme) (4.0.0)
+Requirement already satisfied: idna<3,>=2.5; python_version < "3" in c:\python27\lib\site-packages (from requests>=2.0.0->sphinx<8,>=1.6->sphinx-rtd-theme) (2.10)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\python27\lib\site-packages (from requests>=2.0.0->sphinx<8,>=1.6->sphinx-rtd-theme) (1.26.18)
+Requirement already satisfied: certifi>=2017.4.17 in c:\python27\lib\site-packages (from requests>=2.0.0->sphinx<8,>=1.6->sphinx-rtd-theme) (2021.10.8)
+Requirement already satisfied: pytz>=2015.7 in c:\python27\lib\site-packages (from babel!=2.0,>=1.3->sphinx<8,>=1.6->sphinx-rtd-theme) (2023.3.post1)
+Requirement already satisfied: pyparsing>=2.0.2 in c:\python27\lib\site-packages (from packaging->sphinx<8,>=1.6->sphinx-rtd-theme) (2.4.7)
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths>cd docs
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs>sphinx-quickstart
+Welcome to the Sphinx 1.8.6 quickstart utility.
+
+Please enter values for the following settings (just press Enter to
+accept a default value, if one is given in brackets).
+
+Selected root path: .
+
+You have two options for placing the build directory for Sphinx output.
+Either, you use a directory "_build" within the root path, or you separate
+"source" and "build" directories within the root path.
+> Separate source and build directories (y/n) [n]:
+
+Inside the root directory, two more directories will be created; "_templates"
+for custom HTML templates and "_static" for custom stylesheets and other static
+files. You can enter another prefix (such as ".") to replace the underscore.
+> Name prefix for templates and static dir [_]:
+
+The project name will occur in several places in the built documentation.
+> Project name: Maths
+> Author name(s): Julani.C
+> Project release []: 02.07.01
+
+If the documents are to be written in a language other than English,
+you can select a language here by its language code. Sphinx will then
+translate text that it generates into that language.
+
+For a list of supported codes, see
+http://sphinx-doc.org/config.html#confval-language.
+> Project language [en]:
+
+The file name suffix for source files. Commonly, this is either ".txt"
+or ".rst".  Only files with this suffix are considered documents.
+> Source file suffix [.rst]:
+
+One document is special in that it is considered the top node of the
+"contents tree", that is, it is the root of the hierarchical structure
+of the documents. Normally, this is "index", but if your "index"
+document is a custom template, you can also set this to another filename.
+> Name of your master document (without suffix) [index]:
+Indicate which of the following Sphinx extensions should be enabled:
+> autodoc: automatically insert docstrings from modules (y/n) [n]: y
+> doctest: automatically test code snippets in doctest blocks (y/n) [n]: y
+> intersphinx: link between Sphinx documentation of different projects (y/n) [n]: y
+> todo: write "todo" entries that can be shown or hidden on build (y/n) [n]: y
+> coverage: checks for documentation coverage (y/n) [n]: y
+> imgmath: include math, rendered as PNG or SVG images (y/n) [n]: y
+> mathjax: include math, rendered in the browser by MathJax (y/n) [n]: y
+> ifconfig: conditional inclusion of content based on config values (y/n) [n]: y
+> viewcode: include links to the source code of documented Python objects (y/n) [n]: y
+> githubpages: create .nojekyll file to publish the document on GitHub pages (y/n) [n]: y
+Note: imgmath and mathjax cannot be enabled at the same time. imgmath has been deselected.
+
+A Makefile and a Windows command file can be generated for you so that you
+only have to run e.g. `make html' instead of invoking sphinx-build
+directly.
+> Create Makefile? (y/n) [y]:
+> Create Windows command file? (y/n) [y]:
+
+Creating file .\conf.py.
+Creating file .\index.rst.
+Creating file .\Makefile.
+Creating file .\make.bat.
+
+Finished: An initial directory structure has been created.
+
+You should now populate your master file .\index.rst and create other documentation
+source files. Use the Makefile to build the docs, like so:
+   make builder
+where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
+
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs>cd ..
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths>sphinx-apidoc -o docs maths/
+Creating file docs\maths.rst.
+Creating file docs\modules.rst.
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths>cd docs
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs>make html
+Running Sphinx v1.8.6
+making output directory...
+loading intersphinx inventory from https://docs.python.org/objects.inv...
+intersphinx inventory has moved: https://docs.python.org/objects.inv -> https://docs.python.org/3/objects.inv
+building [mo]: targets for 0 po files that are out of date
+building [html]: targets for 3 source files that are out of date
+updating environment: 3 added, 0 changed, 0 removed
+reading sources... [100%] modules
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs\index.rst:9: WARNING: toctree contains reference to nonexisting document u'add'
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs\index.rst:9: WARNING: toctree contains reference to nonexisting document u'divide'
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs\index.rst:9: WARNING: toctree contains reference to nonexisting document u'multiply'
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs\index.rst:9: WARNING: toctree contains reference to nonexisting document u'subtract'
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [100%] modules
+generating indices... genindex py-modindex
+highlighting module code... [100%] maths.subtract
+writing additional pages... search
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en) ... done
+dumping object inventory... done
+-------------Software Documentation-------------
+
+
+build succeeded, 4 warnings.
+
+The HTML pages are in _build\html.
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs>start index.html
+The system cannot find the file index.html.
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs>cd _build\html
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs\_build\html>start index.html
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs\_build\html>cd docs
+The system cannot find the path specified.
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs\_build\html>cd ..
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs\_build>cd ..
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs>make clean
+Removing everything under '_build'...
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs>make html
+Running Sphinx v1.8.6
+making output directory...
+loading intersphinx inventory from https://docs.python.org/objects.inv...
+intersphinx inventory has moved: https://docs.python.org/objects.inv -> https://docs.python.org/3/objects.inv
+building [mo]: targets for 0 po files that are out of date
+building [html]: targets for 3 source files that are out of date
+updating environment: 3 added, 0 changed, 0 removed
+reading sources... [100%] modules
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs\index.rst:9: WARNING: toctree contains reference to nonexisting document u'add'
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs\index.rst:9: WARNING: toctree contains reference to nonexisting document u'divide'
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs\index.rst:9: WARNING: toctree contains reference to nonexisting document u'multiply'
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs\index.rst:9: WARNING: toctree contains reference to nonexisting document u'subtract'
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [100%] modules
+generating indices... genindex py-modindex
+highlighting module code... [100%] maths.subtract
+writing additional pages... search
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en) ... done
+dumping object inventory... done
+build succeeded, 4 warnings.
+
+The HTML pages are in _build\html.
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs>cd _build\html
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs\_build\html>start index.html
+
+C:\Downloads\Julani\Bootcamp\3 - Advanced Software Engineering\L3T05 - Software Documentation\03-011 Software Documentation\sphinx_maths\docs\_build\html>
